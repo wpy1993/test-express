@@ -13,12 +13,16 @@ const Books = sequelize.define(
       allowNull: true,
     },
     publishDate: {
-      type: DataTypes.BOOLEAN,
+      type: DataTypes.DATE,
       allowNull: false,
     },
     author: {
       type: DataTypes.STRING,
       allowNull: false,
+    },
+    intro: {
+      type: DataTypes.STRING,
+      allowNull: true,
     },
   },
   {

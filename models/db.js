@@ -7,6 +7,7 @@ const pwd = fs.readFileSync(path.resolve("./pwd.txt"), "utf-8");
 const sequelize = new Sequelize("myschooldb", "root", pwd, {
   host: "localhost",
   dialect: "mysql",
+  logging: console.log,
   // logging: false,
 });
 
