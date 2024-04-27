@@ -50,3 +50,7 @@ macOS中 启动、查询状态（暴露出pid）、关闭
 `kill -15 pid` 杀进程。pid就是port
 
 `kill -9 pid` 强杀进程
+
+
+## 数据操作指令 （eg: sequel pro 可视化软件操作）
+

@@ -7,7 +7,7 @@ import {
   deleteAdmin,
   updateAdmin,
   getAdmin,
-} from "./services/adminServices.js";
+} from "../services/adminServices.js";
 
 // await addAdmin({
 //   loginId: "abcab",
